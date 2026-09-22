@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News API</title>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JAVASCRIPT MODULE -->
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <h1>News API</h1>
+        <input
+          type="search"
+          class="news-search-input"
+          id="newsSearchInput"
+          placeholder="Search news ..."
+        />
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="content-wrapper" id="contentWrapper">
+        <!-- News Cards will be injected here -->
+      </div>
+      <h3 class="message-text" id="messageText">Loading...</h3>
+    </div>
+  </body>
+</html>
